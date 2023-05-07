@@ -5,11 +5,12 @@
 package com.metodos;
 
 public class EjemploInterpolacionLagrange {
+
     public static void main(String[] args) {
         // Valores conocidos
-        double[] x = {8, 12}; // Valores conocidos de x
-        double[] y = {0.9030900, 1.0791812}; // Valores conocidos de y
-        double xValor = 10; // Valor para el cual queremos estimar y
+        double[] x = {1, 4}; // Valores conocidos de x
+        double[] y = {0, 1.386294}; // Valores conocidos de y
+        double xValor = 2; // Valor para el cual queremos estimar y
 
         // Estimación y cálculo del error relativo porcentual
         double yValor = interpolacionLagrange(x, y, xValor);
